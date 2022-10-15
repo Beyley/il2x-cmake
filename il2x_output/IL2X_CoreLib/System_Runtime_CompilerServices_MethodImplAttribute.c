@@ -1,0 +1,26 @@
+#include "System_Runtime_CompilerServices_MethodImplAttribute_Methods.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute* self, t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplOptions p_methodImplOptions)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	self->f__Value_k__BackingField = p_methodImplOptions;
+	return;
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute__ctor_1(t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute* self, t_IL2X_CoreLib_System_Int16 p_value)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	self->f__Value_k__BackingField = p_value;
+	return;
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute__ctor_2(t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute* self)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	return;
+}
+
+t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplOptions t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute_get_Value_0(t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute* self)
+{
+	return self->f__Value_k__BackingField;
+}

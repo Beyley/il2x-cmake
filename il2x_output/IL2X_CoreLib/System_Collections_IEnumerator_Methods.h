@@ -1,0 +1,16 @@
+#pragma once
+#include "System_Collections_IEnumerator.h"
+
+#include "System_Object.h"
+#include "System_Boolean.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Object* t_IL2X_CoreLib_System_Collections_IEnumerator_get_Current_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self);
+t_IL2X_CoreLib_System_Boolean t_IL2X_CoreLib_System_Collections_IEnumerator_MoveNext_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Collections_IEnumerator_Reset_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self);
+
+typedef struct rt_IL2X_CoreLib_System_Collections_IEnumerator rt_IL2X_CoreLib_System_Collections_IEnumerator;
+struct rt_IL2X_CoreLib_System_Collections_IEnumerator
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

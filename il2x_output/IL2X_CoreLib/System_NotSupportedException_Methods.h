@@ -1,0 +1,15 @@
+#pragma once
+#include "System_NotSupportedException.h"
+
+#include "System_Exception.h"
+#include "System_Void.h"
+#include "System_String.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_NotSupportedException__ctor_0(t_IL2X_CoreLib_System_NotSupportedException* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_NotSupportedException__ctor_1(t_IL2X_CoreLib_System_NotSupportedException* self, t_IL2X_CoreLib_System_String* p_message);
+
+typedef struct rt_IL2X_CoreLib_System_NotSupportedException rt_IL2X_CoreLib_System_NotSupportedException;
+struct rt_IL2X_CoreLib_System_NotSupportedException
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

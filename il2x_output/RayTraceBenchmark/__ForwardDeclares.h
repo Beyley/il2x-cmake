@@ -1,0 +1,8 @@
+#pragma once
+
+/* === Normal Types === */
+typedef struct t_RayTraceBenchmark_RayTraceBenchmark_Program t_RayTraceBenchmark_RayTraceBenchmark_Program;
+typedef struct t_RayTraceBenchmark_g_RayTraceBenchmark_MyGeneric_1_System_Int32_ t_RayTraceBenchmark_g_RayTraceBenchmark_MyGeneric_1_System_Int32_;
+typedef struct t_RayTraceBenchmark_g_RayTraceBenchmark_MyGeneric_1_NestedClass_System_Int32_ t_RayTraceBenchmark_g_RayTraceBenchmark_MyGeneric_1_NestedClass_System_Int32_;
+
+#include "il2x_builtins.h"

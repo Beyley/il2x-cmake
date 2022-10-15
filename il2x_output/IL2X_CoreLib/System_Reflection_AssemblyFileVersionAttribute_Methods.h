@@ -1,0 +1,15 @@
+#pragma once
+#include "System_Reflection_AssemblyFileVersionAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_String.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute__ctor_0(t_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute* self, t_IL2X_CoreLib_System_String* p_version);
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute_get_Version_0(t_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute rt_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute;
+struct rt_IL2X_CoreLib_System_Reflection_AssemblyFileVersionAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

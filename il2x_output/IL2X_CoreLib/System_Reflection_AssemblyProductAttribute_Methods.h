@@ -1,0 +1,15 @@
+#pragma once
+#include "System_Reflection_AssemblyProductAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_String.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute__ctor_0(t_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute* self, t_IL2X_CoreLib_System_String* p_product);
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute_get_Product_0(t_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute rt_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute;
+struct rt_IL2X_CoreLib_System_Reflection_AssemblyProductAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,11 @@
+#pragma once
+#include "__ForwardDeclares.h"
+#include "System_Void.h"
+
+typedef struct t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute;
+struct t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute
+{
+	void* RuntimeType;
+	t_IL2X_CoreLib_System_String* f__FrameworkDisplayName_k__BackingField;
+	t_IL2X_CoreLib_System_String* f__FrameworkName_k__BackingField;
+};

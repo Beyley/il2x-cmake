@@ -1,0 +1,12 @@
+#pragma once
+#include "System_Collections_IEnumerable.h"
+
+#include "System_Collections_IEnumerator.h"
+
+t_IL2X_CoreLib_System_Collections_IEnumerator* t_IL2X_CoreLib_System_Collections_IEnumerable_GetEnumerator_0(t_IL2X_CoreLib_System_Collections_IEnumerable* self);
+
+typedef struct rt_IL2X_CoreLib_System_Collections_IEnumerable rt_IL2X_CoreLib_System_Collections_IEnumerable;
+struct rt_IL2X_CoreLib_System_Collections_IEnumerable
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

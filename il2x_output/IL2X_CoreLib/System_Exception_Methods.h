@@ -1,0 +1,18 @@
+#pragma once
+#include "System_Exception.h"
+
+#include "System_Object.h"
+#include "System_String.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Exception__ctor_0(t_IL2X_CoreLib_System_Exception* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Exception__ctor_1(t_IL2X_CoreLib_System_Exception* self, t_IL2X_CoreLib_System_String* p_message);
+t_IL2X_CoreLib_System_Exception* t_IL2X_CoreLib_System_Exception_get_InnerException_0(t_IL2X_CoreLib_System_Exception* self);
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Exception_get_Message_0(t_IL2X_CoreLib_System_Exception* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Exception_set_Message_0(t_IL2X_CoreLib_System_Exception* self, t_IL2X_CoreLib_System_String* p_value);
+
+typedef struct rt_IL2X_CoreLib_System_Exception rt_IL2X_CoreLib_System_Exception;
+struct rt_IL2X_CoreLib_System_Exception
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,12 @@
+#pragma once
+#include "__ForwardDeclares.h"
+#include "System_Runtime_CompilerServices_MethodImplOptions.h"
+#include "System_Void.h"
+#include "System_Int16.h"
+
+typedef struct t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute;
+struct t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplAttribute
+{
+	void* RuntimeType;
+	t_IL2X_CoreLib_System_Runtime_CompilerServices_MethodImplOptions f__Value_k__BackingField;
+};

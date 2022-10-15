@@ -1,0 +1,15 @@
+#pragma once
+#include "System_Reflection_DefaultMemberAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_String.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute__ctor_0(t_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute* self, t_IL2X_CoreLib_System_String* p_memberName);
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute_get_MemberName_0(t_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute rt_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute;
+struct rt_IL2X_CoreLib_System_Reflection_DefaultMemberAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

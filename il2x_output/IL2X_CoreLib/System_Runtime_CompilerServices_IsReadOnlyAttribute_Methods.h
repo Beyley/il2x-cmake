@@ -1,0 +1,13 @@
+#pragma once
+#include "System_Runtime_CompilerServices_IsReadOnlyAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_CompilerServices_IsReadOnlyAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_CompilerServices_IsReadOnlyAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Runtime_CompilerServices_IsReadOnlyAttribute rt_IL2X_CoreLib_System_Runtime_CompilerServices_IsReadOnlyAttribute;
+struct rt_IL2X_CoreLib_System_Runtime_CompilerServices_IsReadOnlyAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

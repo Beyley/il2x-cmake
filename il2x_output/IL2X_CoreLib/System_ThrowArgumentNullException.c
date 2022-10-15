@@ -1,0 +1,7 @@
+#include "System_ThrowArgumentNullException_Methods.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_ThrowArgumentNullException__ctor_0(t_IL2X_CoreLib_System_ThrowArgumentNullException* self)
+{
+	t_IL2X_CoreLib_System_Exception__ctor_0(self);
+	return;
+}

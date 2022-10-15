@@ -1,0 +1,16 @@
+#pragma once
+#include "System_Runtime_InteropServices_DllImportAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_String.h"
+#include "System_Runtime_InteropServices_CallingConvention.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute_get_Value_0(t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute* self, t_IL2X_CoreLib_System_String* p_dllName);
+
+typedef struct rt_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute rt_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute;
+struct rt_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,15 @@
+#pragma once
+#include "System_Reflection_AssemblyDelaySignAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_Boolean.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute__ctor_0(t_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute* self, t_IL2X_CoreLib_System_Boolean p_delaySign);
+t_IL2X_CoreLib_System_Boolean t_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute_get_DelaySign_0(t_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute rt_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute;
+struct rt_IL2X_CoreLib_System_Reflection_AssemblyDelaySignAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,14 @@
+#pragma once
+#include "System_Runtime_CompilerServices_RuntimeHelpers.h"
+
+#include "System_Object.h"
+#include "System_Int32.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Int32 t_IL2X_CoreLib_System_Runtime_CompilerServices_RuntimeHelpers_get_OffsetToStringData_0();
+
+typedef struct rt_IL2X_CoreLib_System_Runtime_CompilerServices_RuntimeHelpers rt_IL2X_CoreLib_System_Runtime_CompilerServices_RuntimeHelpers;
+struct rt_IL2X_CoreLib_System_Runtime_CompilerServices_RuntimeHelpers
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,13 @@
+#pragma once
+#include "System_Runtime_InteropServices_OutAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_InteropServices_OutAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_InteropServices_OutAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Runtime_InteropServices_OutAttribute rt_IL2X_CoreLib_System_Runtime_InteropServices_OutAttribute;
+struct rt_IL2X_CoreLib_System_Runtime_InteropServices_OutAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

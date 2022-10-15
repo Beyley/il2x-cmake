@@ -1,0 +1,7 @@
+#include "Microsoft_CodeAnalysis_EmbeddedAttribute_Methods.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_Microsoft_CodeAnalysis_EmbeddedAttribute__ctor_0(t_IL2X_CoreLib_Microsoft_CodeAnalysis_EmbeddedAttribute* self)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	return;
+}

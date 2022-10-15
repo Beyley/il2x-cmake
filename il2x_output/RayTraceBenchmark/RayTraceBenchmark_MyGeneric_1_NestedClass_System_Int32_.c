@@ -1,0 +1,7 @@
+#include "RayTraceBenchmark_MyGeneric_1_NestedClass_System_Int32__Methods.h"
+
+t_IL2X_CoreLib_System_Void t_RayTraceBenchmark_RayTraceBenchmark_MyGeneric_1_NestedClass__ctor_0(t_RayTraceBenchmark_g_RayTraceBenchmark_MyGeneric_1_NestedClass_System_Int32_* self)
+{
+	t_IL2X_CoreLib_System_Object__ctor_0(self);
+	return;
+}

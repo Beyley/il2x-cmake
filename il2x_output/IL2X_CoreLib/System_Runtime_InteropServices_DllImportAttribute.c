@@ -1,0 +1,13 @@
+#include "System_Runtime_InteropServices_DllImportAttribute_Methods.h"
+
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute_get_Value_0(t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute* self)
+{
+	return self->f__Value_k__BackingField;
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_InteropServices_DllImportAttribute* self, t_IL2X_CoreLib_System_String* p_dllName)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	self->f__Value_k__BackingField = p_dllName;
+	return;
+}

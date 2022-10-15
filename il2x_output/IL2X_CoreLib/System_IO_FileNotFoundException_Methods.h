@@ -1,0 +1,15 @@
+#pragma once
+#include "System_IO_FileNotFoundException.h"
+
+#include "System_Exception.h"
+#include "System_Void.h"
+#include "System_String.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_IO_FileNotFoundException__ctor_0(t_IL2X_CoreLib_System_IO_FileNotFoundException* self);
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_IO_FileNotFoundException__ctor_1(t_IL2X_CoreLib_System_IO_FileNotFoundException* self, t_IL2X_CoreLib_System_String* p_message);
+
+typedef struct rt_IL2X_CoreLib_System_IO_FileNotFoundException rt_IL2X_CoreLib_System_IO_FileNotFoundException;
+struct rt_IL2X_CoreLib_System_IO_FileNotFoundException
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

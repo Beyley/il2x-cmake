@@ -1,0 +1,13 @@
+#include "System_Collections_IEnumerator_Methods.h"
+
+t_IL2X_CoreLib_System_Object* t_IL2X_CoreLib_System_Collections_IEnumerator_get_Current_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self)
+{
+}
+
+t_IL2X_CoreLib_System_Boolean t_IL2X_CoreLib_System_Collections_IEnumerator_MoveNext_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self)
+{
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Collections_IEnumerator_Reset_0(t_IL2X_CoreLib_System_Collections_IEnumerator* self)
+{
+}

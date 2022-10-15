@@ -1,0 +1,13 @@
+#pragma once
+#include "System_ThrowArgumentNullException.h"
+
+#include "System_Exception.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_ThrowArgumentNullException__ctor_0(t_IL2X_CoreLib_System_ThrowArgumentNullException* self);
+
+typedef struct rt_IL2X_CoreLib_System_ThrowArgumentNullException rt_IL2X_CoreLib_System_ThrowArgumentNullException;
+struct rt_IL2X_CoreLib_System_ThrowArgumentNullException
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};

@@ -1,0 +1,30 @@
+#include "System_Runtime_Versioning_TargetFrameworkAttribute_Methods.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute__ctor_0(t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute* self, t_IL2X_CoreLib_System_String* p_frameworkName)
+{
+	t_IL2X_CoreLib_System_Attribute__ctor_0(self);
+	t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute_set_FrameworkName_0(p_frameworkName, self);
+	return;
+}
+
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute_get_FrameworkDisplayName_0(t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute* self)
+{
+	return self->f__FrameworkDisplayName_k__BackingField;
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute_set_FrameworkDisplayName_0(t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute* self, t_IL2X_CoreLib_System_String* p_value)
+{
+	self->f__FrameworkDisplayName_k__BackingField = p_value;
+	return;
+}
+
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute_get_FrameworkName_0(t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute* self)
+{
+	return self->f__FrameworkName_k__BackingField;
+}
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute_set_FrameworkName_0(t_IL2X_CoreLib_System_Runtime_Versioning_TargetFrameworkAttribute* self, t_IL2X_CoreLib_System_String* p_value)
+{
+	self->f__FrameworkName_k__BackingField = p_value;
+	return;
+}

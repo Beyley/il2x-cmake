@@ -1,0 +1,15 @@
+#pragma once
+#include "System_Reflection_AssemblyCompanyAttribute.h"
+
+#include "System_Attribute.h"
+#include "System_String.h"
+#include "System_Void.h"
+
+t_IL2X_CoreLib_System_Void t_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute__ctor_0(t_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute* self, t_IL2X_CoreLib_System_String* p_company);
+t_IL2X_CoreLib_System_String* t_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute_get_Company_0(t_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute* self);
+
+typedef struct rt_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute rt_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute;
+struct rt_IL2X_CoreLib_System_Reflection_AssemblyCompanyAttribute
+{
+	IL2X_RuntimeTypeBase RuntimeTypeBase;
+};
